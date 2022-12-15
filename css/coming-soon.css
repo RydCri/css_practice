@@ -1,11 +1,27 @@
 html {
-font-family: Raleway, sans-serif;
+font-family: Raleway, sans-serif; color: white;
+
+width: Calc(100% - body);
 }
 
-.background {
-height: 1px; width: 1px;
+body {
+  background-image: url("img/forest.jpeg");
+
+  overflow: hidden;
 }
 
 .logo {
-color: white;
+
+}
+.element {
+font-size: 40px;
+text-align: center;
+  border: 3px;
+  padding: 10px;
+}
+.hr {
+
+}
+.days {
+
 }
